@@ -1,0 +1,16 @@
+.nav-container {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	width: 100vw;
+	background-color: gray;
+	display: flex;
+	height: 30px;
+}
+
+ul {
+	list-style-type: none;
+	margin: 5px;
+	padding: 0;
+}

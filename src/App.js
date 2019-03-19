@@ -1,12 +1,20 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+import MainInfo from './MainInfo'
+import Navigation from './Navigation'
+import Projects from './Projects'
 import './App.css';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <h1>Sam's Portfolio</h1>
+        <Navigation />
+        <div id="home">
+          <MainInfo />
+        </div>
+        <div id="projects">
+          <Projects />
+        </div>
       </div>
     );
   }
