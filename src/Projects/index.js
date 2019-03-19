@@ -1,5 +1,9 @@
 import React, { Component } from 'react'
 import ProjectSelector from '../ProjectSelector'
+import ProjectShow from '../ProjectShow'
+import ProjectInfo from '../ProjectInfo'
+import './Projects.css'
+
 
 class Projects extends Component {
 	constructor () {
@@ -48,9 +52,10 @@ class Projects extends Component {
 	}
 	render () {
 		return (
-			<div>
-				<h2>Projects</h2><hr />
+			<div className="projects-container">
 				<ProjectSelector projects={this.state.projects} />
+				<ProjectShow />
+				<ProjectInfo />
 			</div>
 		)
 	}

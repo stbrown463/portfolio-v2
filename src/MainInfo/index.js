@@ -19,7 +19,7 @@ const MainInfo = (props) => {
         <div className="skills">
 					<h2 className="skills-header-main">Skills</h2>
 					<hr/>
-					<p className="skills-text">JavaScript | React | Express | Node.js | Python | Flask | CSS3 | HTML5 | jQuery | Git |` RESTful Routes| MongoDB | SQL | PostgreSQL</p>
+					<p className="skills-text">JavaScript | React | Express | Node.js | Python | Flask | CSS3 | HTML5 | jQuery | Git | RESTful Routes | MongoDB | SQL | PostgreSQL</p>
         </div>
       </div>
     </div>
