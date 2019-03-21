@@ -1,10 +1,12 @@
 import React from 'react'
 import './ProjectShow.css'
 
-const ProjectShow = (props) => {
+const ProjectShow = ({name, img}) => {
+	console.log(img);
 	return (
 		<div className="project-show-container">
-			<h2>Projects</h2>
+			<h2>{name}</h2>
+			<img src={img} alt={name}/>
 		</div>
 	)
 }

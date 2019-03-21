@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import MainInfo from './MainInfo'
 import Navigation from './Navigation'
-import Projects from './Projects'
+import ProjectContainer from './ProjectContainer'
 import './App.css';
 
 class App extends Component {
@@ -13,7 +13,7 @@ class App extends Component {
           <MainInfo />
         </div>
         <div id="projects">
-          <Projects />
+          <ProjectContainer />
         </div>
       </div>
     );
