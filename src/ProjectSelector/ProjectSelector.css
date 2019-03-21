@@ -1,6 +1,5 @@
 .project-selector-container {
 	width: 10vw;
-	background-color: green;
 	display: flex;
 	flex-direction: column;
 	align-items: center;

@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background-color: rgb(82, 103, 122);
 }
 
 .flex-left{
@@ -16,4 +17,13 @@
   justify-content: flex-end;
   align-items: center;
   width: 50vw;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover{
+  text-decoration: underline;
 }

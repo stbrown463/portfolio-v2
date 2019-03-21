@@ -1,5 +1,7 @@
 .main-container {
+	top: 30px;
 	height: 800px;
+	color: white;
 }
 
 .info-pic {
@@ -10,13 +12,28 @@
 	height: 100vh;
 	color: white;
 	font-size: 20px;
+	display:flex;
+	align-items: center;
 }
 
 .info {
-	background-color: rgba(0, 0, 0, .5);
-	padding: 60px, 0;
+	background-color: rgba(0, 0, 0, .7);
+	padding-top: 30px;
+	padding-bottom: 30px;
+	width: 100vw;
 }
 
-h1 {
+.skills {
+	margin-top: 10px;
+	margin-bottom: 30px;
+}
 
+.description-main {
+	max-width: 800px;
+}
+
+.description-container {
+	width: 100vw;
+	display: flex;
+	justify-content: center;
 }
