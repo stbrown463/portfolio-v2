@@ -1,5 +1,6 @@
 .projects-container {
-	margin-top: 200px;
+	padding-top: 60px;
+	height: 100vw;
 	display: flex;
 	flex-direction: row;
 	background-color: rgba(0, 0, 0, .7);

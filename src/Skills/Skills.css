@@ -1,0 +1,11 @@
+.skills-container {
+	color: white;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+}
+
+.skills {
+	width: 100vw;
+}
+

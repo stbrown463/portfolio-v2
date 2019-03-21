@@ -13,6 +13,9 @@ class Navigation extends Component {
 						<a href="#home"><h4><li className="list-item">Home</li></h4></a>  
 					</ul>
 					<ul>
+						<a href="#skills"><h4><li className="list-item">Skills</li></h4></a>  
+					</ul>
+					<ul>
 						<a href="#projects"><h4><li className="list-item">Projects</li></h4></a>  
 					</ul>
 				</div>
