@@ -3,9 +3,11 @@ import './ProjectSelector.css'
 
 const ProjectSelector = ({projects, setProject}) => {
 	return (
-		<div className="project-selector-container">
-			{projects.map((p, i) => <button key={i} onClick={setProject.bind(null, i)}>{p.name}</button>)}
-		</div>
+
+			<div className="project-selector-inner">
+				{projects.map((p, i) => <button key={i} onClick={setProject.bind(null, i)}>{p.name}</button>)}
+			</div>
+
 	)
 }
 

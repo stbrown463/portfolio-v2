@@ -1,3 +1,26 @@
 .project-info-container {
-	width: 30vw;
+	width: 100vw;
+}
+
+.description-container p {
+	max-width: 800px;
+}
+
+.description-container {
+	width: 100vw;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.project-info-conatiner h2 {
+	margin-top: 0;
+	margin-bottom: 10px;
+}
+
+.project-info-container img {
+	margin-top: 15px;
+	max-width: 80vw;
+	height: 60vh;
+	border: 2px solid white;
 }

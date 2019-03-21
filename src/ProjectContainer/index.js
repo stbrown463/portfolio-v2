@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import ProjectSelector from '../ProjectSelector'
-import ProjectShow from '../ProjectShow'
+// import ProjectShow from '../ProjectShow'
 import ProjectInfo from '../ProjectInfo'
 import './ProjectContainer.css'
 
@@ -17,7 +17,7 @@ class Projects extends Component {
 					url: "https://band-manager-react.herokuapp.com/",
 					img: "/project-imgs/bandconnectr.png",
 					description: "BandConnectr is a band-facing app for keeping track of a band's shows, and the connections that are made each time they play.  The goal of the app is to aid in the tour booking process",
-					tech: "Tech Stack: React, React Router, Python, Flask, PeeWee, PostgreSQL, CSS3",
+					tech: "React | React Router | Python | Flask | PeeWee | PostgreSQL | CSS3",
 					github: ["https://github.com/stbrown463/band-manager-fe", "https://github.com/stbrown463/band-manager-be"],
 					website: "https://band-manager-react.herokuapp.com/"
 				},
@@ -26,7 +26,7 @@ class Projects extends Component {
 					url: "https://bandcrackr.herokuapp.com/",
 					img: "/project-imgs/bandcrackr.png",
 					description: "BandCrackr is a music recommending app for finding artists and suggesting artists based on user created lists",
-					tech: "Tech Stack: React, Node, Express, MongoDB, Mongoose, LastFM API, CSS3",
+					tech: "React | Node | Express | MongoDB | Mongoose | LastFM API | CSS3",
 					github: ["https://github.com/stbrown463/where-to-start-FE", "https://github.com/stbrown463/where-to-start-BE"],
 					website: "https://bandcrackr.herokuapp.com/"
 				},
@@ -35,7 +35,7 @@ class Projects extends Component {
 					url: "https://earfull.herokuapp.com/earfull",
 					img: "/project-imgs/earfull.png",
 					description: "Earfull is a CRUD app for podcast listeners to create playlists of their favorite shows",
-					tech: "Tech Stack: Express, Node, EJS, MongoDB, Mongoose, ListenNotes API, jQuery, jQueryUI, CSS3",
+					tech: "Express | Node | EJS | MongoDB | Mongoose | ListenNotes API | jQuery | jQueryUI | CSS3",
 					github: ["https://github.com/nathanlamontsmith12/earfull-app"],
 					website: "https://earfull.herokuapp.com/earfull"
 				},
@@ -43,8 +43,8 @@ class Projects extends Component {
 					name: "Hamm's Passer",
 					url: "https://stbrown463.github.io/Hamm-s-Passer/",
 					img: "/project-imgs/hamms.png",
-					description: "Hamm's Passer is a browser game that runs on the HTML Canvas element. It's based on the classsic Bally Arcade cabinet, Tapper, a game where you play a bartender that slides beers down a bar to customers. As opposed to using draft beers like the original game I chose cans of Hamm's as the beer of choice. Hamm's was the staff beer at the restarurant I worked for several years. Speaking from expericence, Hamm's always tastes better after being slid down a bar.",
-					tech: "Tech Stack: HTML, Canvas, Javascript, CSS3",
+					description: "Hamm's Passer is a browser game that runs on the HTML Canvas element. It's based on the arcade classic, Tapper, a game where you play as a bartender that slides beers down a bar to customers. This was my first Javascript project, and was inspired by passing staff beers to coworkers after a long night bartending.",
+					tech: "HTML | Canvas | Javascript | CSS3",
 					github: ["https://github.com/stbrown463/Hamm-s-Passer"],
 					website: "https://stbrown463.github.io/Hamm-s-Passer/"
 				}
@@ -69,10 +69,9 @@ class Projects extends Component {
 				<ProjectSelector 
 					projects={projects}
 					setProject={this.setProject} />
-				<ProjectShow 
-					name={project.name}
-					img={project.img}/>
 				<ProjectInfo 
+					name={project.name}
+					img={project.img}
 					url={project.url}
 					description={project.description}
 					tech={project.tech}
@@ -83,4 +82,10 @@ class Projects extends Component {
 	}
 }
 
+// <ProjectShow 
+// name={project.name}
+// img={project.img}/>
+
 export default Projects
+
+

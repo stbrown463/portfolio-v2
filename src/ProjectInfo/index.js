@@ -1,21 +1,26 @@
 import React from 'react'
 import './ProjectInfo.css'
 
-const ProjectInfo = ({url, description, tech, github, website}) => {
+const ProjectInfo = ({name, img, url, description, tech, github, website}) => {
 
 	const githubList = github.map((link, i) => {
 		return (
-		<div>
-			<a href={github[i]} key={i}>Github</a><br />
-		</div>
+		<span>
+			<a href={github[i]} key={i}>Github {i === 0 ? "Frontend " : "Backend " }</a>{github.length > 1 && i === 0 ? " | " : null}
+		</span>
 		)
 	})
 
 	return (
 		<div className="project-info-container">
-			<a href={url}>Website</a>
-			{githubList}
-			<p>{description}</p>
+			<h2>{name}</h2>
+			<a href={url}>Deployment</a><br />
+			{githubList}<br />
+			<div className="description-container">
+				<p>{tech}</p>
+				<p>{description}</p>
+			</div>
+			<img src={img} alt={name} />
 		</div>
 	)
 }
