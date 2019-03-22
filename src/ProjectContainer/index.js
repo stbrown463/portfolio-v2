@@ -15,7 +15,7 @@ class Projects extends Component {
 				{
 					name: "BandConnectr",
 					url: "https://band-manager-react.herokuapp.com/",
-					img: "/project-imgs/bandconnectr.png",
+					img: "/project-imgs/bandconnectr-1.png",
 					description: "BandConnectr is a band-facing app for keeping track of a band's shows, and the connections that are made each time they play.  The goal of the app is to aid in the tour booking process",
 					tech: "React | React Router | Python | Flask | PeeWee | PostgreSQL | CSS3",
 					github: ["https://github.com/stbrown463/band-manager-fe", "https://github.com/stbrown463/band-manager-be"],
@@ -32,8 +32,8 @@ class Projects extends Component {
 				},
 				{
 					name: "Earfull",
-					url: "https://earfull.herokuapp.com/earfull",
-					img: "/project-imgs/earfull.png",
+					url: "https://earfull.herokuapp.com/earfull-fs",
+					img: "/project-imgs/earfull-fs.png",
 					description: "Earfull is a CRUD app for podcast listeners to create playlists of their favorite shows",
 					tech: "Express | Node | EJS | MongoDB | Mongoose | ListenNotes API | jQuery | jQueryUI | CSS3",
 					github: ["https://github.com/nathanlamontsmith12/earfull-app"],

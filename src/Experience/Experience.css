@@ -1,0 +1,80 @@
+.experience-conatiner {
+	padding-top: 30px;
+	min-height: calc(100vh - 30px);
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+.experience-card {
+  background: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.8), 
+      rgba(0, 0, 0, 0.6)
+    ),
+    url('/project-imgs/radler.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 60vw;
+	height: 30vh;
+	border-radius: 5px;
+	box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.3);
+	color: white;
+	padding: 10px;
+	margin: 0;
+}
+
+.experience-row-1 {
+	width: 100vw;
+	display: flex;
+	justify-content: flex-start;
+	margin-left: 10vw;
+}
+
+.experience-row-2 {
+	width: 100vw;
+	display: flex;
+	justify-content: flex-end;
+}
+
+.experience-card *{
+	text-align: left;
+	margin-left: 0;
+}
+
+.experience-card h3 {
+	padding-top: 0;
+	margin-top: 2px;
+}
+
+.experience-card ul {
+	padding-left: 20px;
+}
+
+.job-card-left{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  width: 50%;
+  display: inline;
+  margin: 0;
+}
+
+.job-card-right {
+	display: inline;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  width: 50%;
+}
+
+.job-card-header {
+	display:flex;
+}
+
+
+
+

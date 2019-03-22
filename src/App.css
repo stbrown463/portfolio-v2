@@ -1,6 +1,7 @@
 .App {
   text-align: center;
   background-color: rgb(82, 103, 122);
+  width: 100vw;
 }
 
 .flex-left{

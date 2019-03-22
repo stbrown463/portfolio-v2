@@ -15,7 +15,7 @@ button {
 	outline: none; 
 	font-size: 1rem; 
 	width: 15vw;
-	margin: 15px 10px 0 10px;
+	margin: 15px 15px 0 15px;
 }
 
 
@@ -23,5 +23,5 @@ button:hover {
 	color: #fff; 
 	background-color: #B6C4C7; 
 	/* transform: translateY(-.3rem); */
-	box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+	box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.3);
 } 

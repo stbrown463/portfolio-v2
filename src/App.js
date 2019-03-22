@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import MainInfo from './MainInfo'
 import Navigation from './Navigation'
 import ProjectContainer from './ProjectContainer'
+import Experience from './Experience'
+import Education from './Education'
 import Skills from './Skills'
 import './App.css';
 
@@ -18,6 +20,12 @@ class App extends Component {
         </div>
         <div id="projects">
           <ProjectContainer />
+        </div>
+        <div id="experience">
+          <Experience />
+        </div>
+        <div id="education">
+          <Education />
         </div>
       </div>
     );
