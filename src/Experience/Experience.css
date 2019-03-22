@@ -7,35 +7,65 @@
 }
 
 .experience-card {
-  background: 
-    linear-gradient(
-      rgba(0, 0, 0, 0.8), 
-      rgba(0, 0, 0, 0.6)
-    ),
-    url('/project-imgs/radler.jpg');
+	width: 60vw;
+	height: 35vh;
+	border-radius: 5px;
+	box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.3);
+	color: black;
+	padding: 20px;
+	margin: 0;
+	background: 
+		linear-gradient(
+		  rgba(0, 0, 0, 0.15), 
+		  rgba(0, 0, 0, 0.0)
+		), white;
+}
+
+/*.radler {
+	background: 
+	linear-gradient(
+	  rgba(0, 0, 0, 0.9), 
+	  rgba(0, 0, 0, 0.7)
+	),
+	url('/project-imgs/radler.jpg');
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	width: 60vw;
-	height: 30vh;
-	border-radius: 5px;
-	box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.3);
-	color: white;
-	padding: 10px;
-	margin: 0;
 }
 
+.ga {
+	background: 
+	linear-gradient(
+	  rgba(0, 0, 0, 0.9), 
+	  rgba(0, 0, 0, 0.7)
+	),
+	url('/project-imgs/ga.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}*/
+
 .experience-row-1 {
-	width: 100vw;
+	width: 95vw;
 	display: flex;
 	justify-content: flex-start;
-	margin-left: 10vw;
+	margin-left: 5vw;
+	align-items: center;
 }
 
 .experience-row-2 {
-	width: 100vw;
+	width: 95vw;
 	display: flex;
 	justify-content: flex-end;
+	margin-right: 5vw;
+	align-items: center;
+}
+
+.logo {
+	height: 35vh;
+	border-radius: 5px;
+	box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.3);
+	margin: 0 60px;
 }
 
 .experience-card *{
@@ -50,7 +80,16 @@
 
 .experience-card ul {
 	padding-left: 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	height: 60%;
 }
+
+.experience-card li {
+	font-size: 20px;
+}
+
 
 .job-card-left{
   display: flex;
