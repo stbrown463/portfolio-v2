@@ -4,6 +4,10 @@
 	color: white;
 }
 
+.main-container h1 {
+	font-size: 50px;
+}
+
 .info-pic {
 	background-image: url('/project-imgs/Chicago.jpg');
 	background-position: center;

@@ -10,18 +10,18 @@
 
 button {
 	height: 2rem;
-	border: .2rem solid rgb(82, 103, 122); 
-	border-radius: .2rem; 
+	border-radius: 5px; 
 	outline: none; 
 	font-size: 1rem; 
 	width: 15vw;
+	background-color: white;
 	margin: 15px 15px 0 15px;
 }
 
 
 button:hover {
 	color: #fff; 
-	background-color: #B6C4C7; 
-	/* transform: translateY(-.3rem); */
+	background-color: rgba(0, 0, 0, .4); 
+	transform: translateY(-.1rem); 
 	box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.3);
 } 

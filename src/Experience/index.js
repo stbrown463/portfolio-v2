@@ -4,7 +4,7 @@ import './Experience.css'
 class Experience extends Component {
 	render () {
 		return (
-			<div className="experience-conatiner">
+			<div className="experience-container">
 				<div className="experience-row-1">
 					<div className="experience-card ga">
 						<span className="job-card-header">

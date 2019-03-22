@@ -1,4 +1,4 @@
-.experience-conatiner {
+.experience-container {
 	padding-top: 30px;
 	min-height: calc(100vh - 30px);
 	display: flex;
@@ -6,9 +6,16 @@
 	justify-content: space-around;
 }
 
+/*.experience-container h1 {
+	margin: 0;
+	padding: 0;
+	font-size: 40px;
+	color: white;
+}*/
+
 .experience-card {
 	width: 60vw;
-	height: 35vh;
+	height: 33vh;
 	border-radius: 5px;
 	box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.3);
 	color: black;
@@ -20,30 +27,6 @@
 		  rgba(0, 0, 0, 0.0)
 		), white;
 }
-
-/*.radler {
-	background: 
-	linear-gradient(
-	  rgba(0, 0, 0, 0.9), 
-	  rgba(0, 0, 0, 0.7)
-	),
-	url('/project-imgs/radler.jpg');
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-}
-
-.ga {
-	background: 
-	linear-gradient(
-	  rgba(0, 0, 0, 0.9), 
-	  rgba(0, 0, 0, 0.7)
-	),
-	url('/project-imgs/ga.jpg');
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-}*/
 
 .experience-row-1 {
 	width: 95vw;
@@ -62,7 +45,7 @@
 }
 
 .logo {
-	height: 35vh;
+	height: 33vh;
 	border-radius: 5px;
 	box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.3);
 	margin: 0 60px;
@@ -86,7 +69,7 @@
 	height: 60%;
 }
 
-.experience-card li {
+.experience-card li, .experience-card p {
 	font-size: 20px;
 }
 
