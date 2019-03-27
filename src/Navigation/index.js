@@ -21,9 +21,6 @@ class Navigation extends Component {
 					<ul>
 						<a href="#experience"><h4><li className="list-item">Experience</li></h4></a>  
 					</ul>
-					<ul>
-						<a href="#education"><h4><li className="list-item">Education</li></h4></a>  
-					</ul>
 				</div>
 			</div>
 		)
@@ -31,3 +28,6 @@ class Navigation extends Component {
 }
 
 export default Navigation
+// <ul>
+// 	<a href="#education"><h4><li className="list-item">Education</li></h4></a>  
+// </ul>

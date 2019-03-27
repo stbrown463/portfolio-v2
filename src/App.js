@@ -24,12 +24,14 @@ class App extends Component {
         <div id="experience">
           <Experience />
         </div>
-        <div id="education">
-          <Education />
-        </div>
       </div>
     );
   }
 }
 
 export default App;
+
+
+// <div id="education">
+//   <Education />
+// </div>

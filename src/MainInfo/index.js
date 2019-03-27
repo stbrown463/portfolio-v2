@@ -8,12 +8,12 @@ const MainInfo = (props) => {
 				<div className="info">
 	        <h1 className="name-main">Sam Brown</h1>
 	        <div className="description-container">
-	        	<p className="description-main">I'm a Chicago based, full stack web developer eager to work in a demanding, creative enviornment that reflects my passion for learning and problem solving.</p>
+	        	<p className="description-main">Chicago based full stack developer with a hunger for knowledge. I’m attracted to environments that foster learning, and embrace being pushed outside of my comfort zone. As a lifelong drummer, I appreciate the value in creativity when applied with proper technique. This principle has been fundamental to my perusal of clean, elegant code. Through both my code and music I hope to build connections and make the world a little more interesting.</p>
 	        </div>
 	        <div className="logo-main-flex">
-	          <a className="social-link" href="https://github.com/stbrown463">GitHub</a> | <a className="social-link"href="https://www.linkedin.com/in/stbrown463/">LinkedIn</a> | <a className="social-link" href="mailto:stbrown463@gmail.com">Email</a>
+	          <a className="social-link" href="https://github.com/stbrown463">GitHub</a> | <a className="social-link"href="https://www.linkedin.com/in/stbrown463/">LinkedIn</a> | <a className="social-link" href="mailto:stbrown463@gmail.com">Email</a><br />
+	          <a className="social-link" href="#">Resume</a>
 	        </div>
-	        <p className="phone-main">(312) 208-5611</p>
 	       </div>
       </div>
     </div>
@@ -21,3 +21,7 @@ const MainInfo = (props) => {
 }
 
 export default MainInfo
+
+// work
+// bio
+// contact
