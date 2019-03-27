@@ -89,5 +89,7 @@ class Projects extends Component {
 export default Projects
 
 // write case studies for each project
+// use case study template as a guide in resources slide
+// case study modal for more info
 
 
