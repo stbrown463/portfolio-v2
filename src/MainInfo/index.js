@@ -12,7 +12,7 @@ const MainInfo = (props) => {
 	        </div>
 	        <div className="logo-main-flex">
 	          <a className="social-link" href="https://github.com/stbrown463">GitHub</a> | <a className="social-link"href="https://www.linkedin.com/in/stbrown463/">LinkedIn</a> | <a className="social-link" href="mailto:stbrown463@gmail.com">Email</a><br />
-	          <a className="social-link" href="#">Resume</a>
+	          <a className="social-link" href="/project-imgs/resume.pdf" download="Sam Brown Resume">Resume</a>
 	        </div>
 	       </div>
       </div>

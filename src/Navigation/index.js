@@ -6,11 +6,11 @@ class Navigation extends Component {
 		return (
 			<div className="nav-container">
 				<div className="flex-left">
-					<p>Sam Brown | Full Stack Web Developer</p>
+					<p>Sam Brown | Full Stack Developer</p>
 				</div>
 				<div className="flex-right">
 					<ul>
-						<a href="#home"><h4><li className="list-item">Home</li></h4></a>  
+						<a href="#home"><h4><li className="list-item">About</li></h4></a>  
 					</ul>
 					<ul>
 						<a href="#skills"><h4><li className="list-item">Skills</li></h4></a>  
