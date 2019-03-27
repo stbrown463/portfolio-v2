@@ -32,7 +32,7 @@ class Projects extends Component {
 				},
 				{
 					name: "Earfull",
-					url: "https://earfull.herokuapp.com/earfull-fs",
+					url: "https://earfull.herokuapp.com/earfull",
 					img: "/project-imgs/earfull-fs.png",
 					description: "Earfull is a CRUD app for podcast listeners to create playlists of their favorite shows",
 					tech: "Express | Node | EJS | MongoDB | Mongoose | ListenNotes API | jQuery | jQueryUI | CSS3",
