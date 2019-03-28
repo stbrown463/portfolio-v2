@@ -25,7 +25,7 @@ class Projects extends Component {
 					name: "BandCrackr",
 					url: "https://bandcrackr.herokuapp.com/",
 					img: "/project-imgs/bandcrackr.png",
-					description: "BandCrackr is a music recommending app for finding artists and suggesting artists based on user created lists",
+					description: "BandCrackr is a music discovery app for finding entry points to artists with deep catalogs.  It also will suggest new artists based on what the user has previously saved",
 					tech: "React | Node | Express | MongoDB | Mongoose | LastFM API | CSS3",
 					github: ["https://github.com/stbrown463/where-to-start-FE", "https://github.com/stbrown463/where-to-start-BE"],
 					website: "https://bandcrackr.herokuapp.com/"

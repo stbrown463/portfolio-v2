@@ -10,7 +10,7 @@ class Navigation extends Component {
 				</div>
 				<div className="flex-right">
 					<ul>
-						<a href="#home"><h4><li className="list-item">About</li></h4></a>  
+						<a href="#about"><h4><li className="list-item">About</li></h4></a>  
 					</ul>
 					<ul>
 						<a href="#skills"><h4><li className="list-item">Skills</li></h4></a>  
