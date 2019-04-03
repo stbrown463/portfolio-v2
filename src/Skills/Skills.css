@@ -15,7 +15,13 @@
 }
 
 .skills-container hr {
-	width: 80vw;
+	border: 0;
+  clear:both;
+  display:block;
+  width: 80vw;               
+  background-color:#FFFFFF;
+  height: 1px;
+  margin: 8px 0;
 }
 
 .skills-container p {

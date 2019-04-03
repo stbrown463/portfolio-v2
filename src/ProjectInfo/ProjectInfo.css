@@ -3,7 +3,7 @@
 }
 
 .description-container p {
-	max-width: 800px;
+	max-width: 1000px;
 }
 
 .description-container {
@@ -14,7 +14,7 @@
 }
 
 .project-name {
-	font-size: 40px;
+	font-size: 40px; /********/
 	margin: 15px 0;
 }
 

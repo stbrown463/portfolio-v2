@@ -12,7 +12,7 @@ button {
 	height: 4vh;
 	border-radius: 5px; 
 	outline: none; 
-	font-size: 1rem; 
+	font-size: calc(5px + .5rem); 
 	width: 15vw;
 	background-color: white;
 	margin: 15px 15px 0 15px;

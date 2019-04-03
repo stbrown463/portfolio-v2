@@ -43,7 +43,7 @@ h4 {
   font-size: calc(12px + 1rem);
 }
 
-p, a, li, ul {
-  font-size: calc(10px + .4rem);
+p, a, li, ul, button {
+  font-size: calc(12px + .3rem);
 }
 

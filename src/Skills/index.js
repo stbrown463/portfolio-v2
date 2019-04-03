@@ -7,7 +7,6 @@ const Skills = (props) => {
 			<div className="skills">
 				<h2 className="skills-header-main">Skills</h2>
 				<hr/>
-				<hr />
 					<p>JavaScript | React | Express | Node.js | Python | Flask | CSS3 | HTML5 | jQuery | Git | RESTful Routes | MongoDB | SQL | PostgreSQL</p>
 			</div>
 		</div>
