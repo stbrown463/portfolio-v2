@@ -18,10 +18,10 @@ class Experience extends Component {
 							<li>Utilized version control with git and github to collaborate with partners across the United States</li>
 						</ul>
 					</div>
-					<img src="/project-imgs/ga-sq.jpg" alt="ga" className="logo"/>
+					<img src="/project-imgs/ga-sq.jpg" alt="ga" className="job-logo"/>
 				</div>
 				<div className="experience-row-2">
-					<img src="/project-imgs/radler-sq.jpeg" alt="radler" className="logo"/>
+					<img src="/project-imgs/radler-sq.jpeg" alt="radler" className="job-logo"/>
 					<div className="experience-card radler">
 						<span className="job-card-header">
 							<h2 className="job-card-left">The Radler</h2>

@@ -17,8 +17,8 @@ const ProjectInfo = ({name, img, url, description, tech, github, website}) => {
 			<a href={url}>Deployment</a><br />
 			{githubList}<br />
 			<div className="description-container">
-				<p>{tech}</p>
-				<p>{description}</p>
+				<p>{tech}</p><br />
+				<p>{description}</p><br />
 			</div>
 			<img src={img} alt={name} />
 		</div>

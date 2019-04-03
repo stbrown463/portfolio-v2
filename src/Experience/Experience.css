@@ -6,20 +6,13 @@
 	justify-content: space-around;
 }
 
-/*.experience-container h1 {
-	margin: 0;
-	padding: 0;
-	font-size: 40px;
-	color: white;
-}*/
-
 .experience-card {
-	width: 60vw;
+	width: 80%;
 	height: 33vh;
 	border-radius: 5px;
 	box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.3);
 	color: black;
-	padding: 20px;
+	padding: 2%;
 	margin: 0;
 	background: 
 		linear-gradient(
@@ -29,26 +22,27 @@
 }
 
 .experience-row-1 {
-	width: 95vw;
+	width: 95%;
 	display: flex;
 	justify-content: flex-start;
-	margin-left: 5vw;
+	margin-left: 5%;
 	align-items: center;
 }
 
 .experience-row-2 {
-	width: 95vw;
+	width: 95%;
 	display: flex;
 	justify-content: flex-end;
-	margin-right: 5vw;
+	margin-right: 5%;
 	align-items: center;
 }
 
-.logo {
-	height: 33vh;
+.job-logo {
+	width: 20%;
+	padding: 0;
+	margin: 0 5%;
 	border-radius: 5px;
 	box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.3);
-	margin: 0 60px;
 }
 
 .experience-card *{
@@ -59,18 +53,20 @@
 .experience-card h3 {
 	padding-top: 0;
 	margin-top: 2px;
+	font-size: calc(12px + .8vw);
 }
 
 .experience-card ul {
-	padding-left: 20px;
+	padding-left: 2vw;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-around;
 	height: 60%;
+	margin: 3%;
 }
 
 .experience-card li, .experience-card p {
-	font-size: 20px;
+/*	font-size: 20px; *//*********/
 }
 
 
